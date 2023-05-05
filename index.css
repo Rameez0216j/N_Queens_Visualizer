@@ -1,0 +1,28 @@
+/* CSS styling for the chessboard */
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+}
+
+.black {
+    background-color: #a56a43;
+}
+
+.white {
+    background-color: #f0d9b5;
+}
+
+.queen {
+    background-color: green;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
